@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import entry from "../assets/projects/entry.jpg";
 
 export const HERO_CONTENT = `I am a passionate front-end developer with a knack for crafting robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technologies like Vue.js and React.js, as well as back-end using Node.js. Recently, I have also been focusing on learning the Laravel framework for back-end and Next.js for extending React capabilities. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -30,9 +31,20 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
+    image: entry,
+    description:
+        "A web-based design software where users can customize doors by adjusting variables like size, materials, handles and adding features such as windows, thermo profiles, door closers, and more. " +
+        "As you modify these options, the door is automatically drawn in real-time, providing a visual representation of your customized design. " +
+        "Perfect for personalized door creation and visualization!",
+    technologies: ["HTML", "CSS", "Vue", "Laravel"],
+      sourceUrl: '',
+      liveUrl: "https://configurator.ryternaentry.com/#/products/create"
+  },
+  {
+    title: "E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart.",
+      "E-commerce website pattern with features like product listing, shopping cart.",
     technologies: ["HTML", "CSS", "React"],
       sourceUrl: "https://github.com/MethGuys/E-Commerce.git",
       liveUrl: "https://hnrcyg-3000.csb.app/"
