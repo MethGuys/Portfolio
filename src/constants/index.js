@@ -30,7 +30,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Real-Time Door Design Software",
     image: entry,
     description:
         "A web-based design software where users can customize doors by adjusting variables like size, materials, handles and adding features such as windows, thermo profiles, door closers, and more. " +
@@ -47,7 +47,7 @@ export const PROJECTS = [
       "E-commerce website pattern with features like product listing, shopping cart.",
     technologies: ["HTML", "CSS", "React"],
       sourceUrl: "https://github.com/MethGuys/E-Commerce.git",
-      liveUrl: "https://hnrcyg-3000.csb.app/"
+      liveUrl: "https://g7tlsd-3000.csb.app/"
   },
   {
     title: "Portfolio Website",
